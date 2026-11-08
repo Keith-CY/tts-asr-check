@@ -1,0 +1,3 @@
+The best optical clocks lose about one second in 40 billion years.
+They count the ticks of a single strontium atom.
+In 2026, a clock like this fits on a table.

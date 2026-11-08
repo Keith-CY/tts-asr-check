@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+# Audio stays out of the repository.
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.aiff
+*.aif
+*.ogg
+*.opus
