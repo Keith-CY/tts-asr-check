@@ -19,6 +19,10 @@ classifiers = [
 ]
 dependencies = ["numpy>=1.24", "pypinyin>=0.50"]
 
+
+[project.urls]
+Homepage = "https://github.com/Keith-CY/tts-asr-check"
+Issues = "https://github.com/Keith-CY/tts-asr-check/issues"
 [project.optional-dependencies]
 mlx = ["mlx-whisper>=0.4.2", "mlx-audio>=0.5.7"]
 faster-whisper = ["faster-whisper>=1.1"]

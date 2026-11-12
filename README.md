@@ -17,8 +17,13 @@ code is 1 when any line needs a listen, so it can stop a pipeline. Chinese, Engl
 
 ## Install
 
-Python 3.11 or later and [ffmpeg](https://ffmpeg.org/) (`brew install ffmpeg`). From a checkout of this
-repository:
+Python 3.11 or later and [ffmpeg](https://ffmpeg.org/) (`brew install ffmpeg`). Straight from GitHub:
+
+```sh
+pip install "tts-asr-check[mlx] @ git+https://github.com/Keith-CY/tts-asr-check"   # Apple Silicon
+```
+
+Or from a checkout of this repository:
 
 ```sh
 pip install ".[mlx]"                          # Apple Silicon: mlx-whisper + mlx-audio
